@@ -62,14 +62,20 @@ Após a primeira rodada, os valores de melhor desempenho foram: 0.01, 0.001 e 0.
 Como pode ser observado nos gráficos de recall, accuracy e precision, para os valores lr_4 e lr_5, não houve melhorias no treinamento com 10 épocas.
 Além disso, como se esperava
 
+
+Gráficos para a rodada 1:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/feb794f6-4c7f-4395-9210-468d853d316d)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/8e560e42-e765-4135-849b-3b141d1f8c31)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/85229f5b-fe96-451b-8081-be72a104c687)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/ec6321c7-2aa3-4045-99bd-c49da8df14f1)
 
 
+Gráficos para a rodada 2:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/692bab45-da3f-4e3c-b072-aaeb01db4ee1)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/614b69a2-6a29-4e69-b340-1836ea97e07f)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/f71645d6-87bb-468a-8518-07a895970ef0)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/d1d4c36b-de8c-48ea-aab7-ecadec09e505)
+
 
 
 Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 20.000 imagens e 30 épocas.
