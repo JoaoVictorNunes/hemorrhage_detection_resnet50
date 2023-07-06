@@ -27,7 +27,8 @@ A preparação dos dados consistiu em:
 3. Outros processamentos
    1. Os pixels das imagens foram normalizados
    2. Dimensões alteradas para 180 px por 180 px
-   3. Não houve a aplicação de técnicas de data augmentation dada a limitação da capacidade computacional
+   3. A ordem das imagens foram randomizadas.
+   4. Não houve a aplicação de técnicas de data augmentation dada a limitação da capacidade computacional
 
 
 ### Link para a versão disponibilizada do dataset.
