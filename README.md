@@ -3,6 +3,7 @@
 ## Motivação/Objetivo
 O objetivo do trabalho é obter um modelo de aprendizado de máquina capaz de predizer, a partir de tomografias computadorizadas do cérebro de uma pessoa, se há ou não a condição hemorragia intracraniana.
 
+### Limitação Computacional
 
 ## Descrição do Dataset
 
@@ -33,14 +34,25 @@ https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data
 
 ## Modelo de aprendizado de máquina
 
-### Formalização matemática.
 
 ### Método de validação.
 
+
 ### Medidas de desempenho.
 
+As medidas de desempenhos utilizadas, em ordem decrescente de importância, foram:
+1. Sensibilidade
+2. Precisão
+3. Acurácia
 
 ## Avaliação
+
+### Seleção do Modelo
+
+Devido ao grande tamanho do dataset e à capacidade computacional limitada, foi adotada uma estratégia para escolha do learning rate 
+
+#### Ajuste fino do learning rate+
+
 
 ### Amostras usadas para treinamento, validação e teste.
 
