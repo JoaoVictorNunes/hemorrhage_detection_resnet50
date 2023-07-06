@@ -37,6 +37,9 @@ https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data
 ## Modelo de aprendizado de máquina
 O modelo utilizado foi a Residual Neural Network, ou ResNet, com 50 camadas ocultas.
 
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/e9cbe02f-6806-4abe-8bd3-bfa666068059)
+
+
 ### Método de validação.
 
 Para a validação do modelo, foram separados 20% dos dados de treino.
