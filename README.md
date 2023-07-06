@@ -58,6 +58,11 @@ A seleção do modelo foi realizada em duas etapas:
 2. Após a seleção dos modelos que melhor desempenharam no passo 1, foi realizada uma nova rodada, mas dessas vez com 30 épocas.
 
 Após a primeira rodada, os valores de melhor desempenho foram: 0.01, 0.001 e 0.0001.
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/71a87857-2db7-469e-83f5-1974d9b57cd2)
+
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/fe11f5b7-45d9-49bc-b56e-04fb8af789f8)
+
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/e03a5029-7566-49e2-9048-9fccf9a5d654)
 
 
 Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 20.000 imagens e 30 épocas.
