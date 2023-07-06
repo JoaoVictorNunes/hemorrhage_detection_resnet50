@@ -44,9 +44,9 @@ Para a validação do modelo, foram separados 20% dos dados de treino.
 ### Medidas de desempenho.
 
 As medidas de desempenhos utilizadas, em ordem decrescente de importância, foram:
-1. Sensibilidade
-2. Precisão
-3. Acurácia
+1. Sensibilidade (Recall)
+2. Especificidade (Specificity) 
+3. Acurácia (Accuracy)
 
 Dada a natureza do problema, a ordem foi definida dessa maneira com o objetivo de minimizar o acontecimento de falsos negativos. 
 
@@ -68,14 +68,14 @@ Gráficos para a rodada 1:
 
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/ec6321c7-2aa3-4045-99bd-c49da8df14f1)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/feb794f6-4c7f-4395-9210-468d853d316d)
-![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/8e560e42-e765-4135-849b-3b141d1f8c31)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/3ded60a8-002d-4e14-aa79-7ea6962cbced)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/85229f5b-fe96-451b-8081-be72a104c687)
 
 Gráficos para a rodada 2:
 
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/d1d4c36b-de8c-48ea-aab7-ecadec09e505)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/692bab45-da3f-4e3c-b072-aaeb01db4ee1)
-![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/614b69a2-6a29-4e69-b340-1836ea97e07f)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/d914d288-74c0-40ab-bb42-7947f7f9fd20)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/f71645d6-87bb-468a-8518-07a895970ef0)
 
 Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 20.000 imagens e 30 épocas.
