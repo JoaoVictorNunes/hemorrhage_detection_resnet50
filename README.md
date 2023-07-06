@@ -8,7 +8,7 @@ O objetivo do trabalho é obter um modelo de aprendizado de máquina capaz de pr
 ## Descrição do Dataset
 
 ### Descrição dos dados
-O dataset é composto por arquivos no formato DICOM. Não há informações acerca do paciente como sexo, idade, saúde, entre outros.
+O dataset é composto por arquivos no formato DICOM. Não há informações acerca dos pacientes como sexo, idade, saúde, entre outros.
 No total, há 753 mil imagens, com um tamanho total de 458.97 GB.
 
 ### Etapas de preparação dos dados ou pré-processamento.
