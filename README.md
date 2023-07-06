@@ -7,6 +7,8 @@ O objetivo do trabalho é obter um modelo de aprendizado de máquina capaz de pr
 
 ## Descrição do Dataset
 
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/216eee5e-5c17-488e-b719-add485cb0a35)
+
 ### Descrição dos dados
 O dataset é composto por arquivos no formato DICOM. Não há informações acerca dos pacientes como sexo, idade, saúde, entre outros.
 No total, há 753 mil imagens, com um tamanho total de 458.97 GB.
