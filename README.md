@@ -65,17 +65,27 @@ Além disso, como se esperava
 
 
 Gráficos para a rodada 1:
-
+Loss:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/ec6321c7-2aa3-4045-99bd-c49da8df14f1)
+
+Recall:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/feb794f6-4c7f-4395-9210-468d853d316d)
+
+Specificity:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/3ded60a8-002d-4e14-aa79-7ea6962cbced)
+
+Accuracy:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/85229f5b-fe96-451b-8081-be72a104c687)
 
 Gráficos para a rodada 2:
 
-![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/d1d4c36b-de8c-48ea-aab7-ecadec09e505)
+Loss:
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/1f40c6a3-c622-460e-894c-30dd203e8b8f)
+Recall:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/692bab45-da3f-4e3c-b072-aaeb01db4ee1)
+Specificity:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/d914d288-74c0-40ab-bb42-7947f7f9fd20)
+Accuracy:
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/f71645d6-87bb-468a-8518-07a895970ef0)
 
 Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 20.000 imagens e 30 épocas.
