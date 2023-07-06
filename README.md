@@ -64,6 +64,7 @@ Além disso, como se esperava
 
 
 Gráficos para a rodada 1:
+
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/feb794f6-4c7f-4395-9210-468d853d316d)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/8e560e42-e765-4135-849b-3b141d1f8c31)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/85229f5b-fe96-451b-8081-be72a104c687)
@@ -71,6 +72,7 @@ Gráficos para a rodada 1:
 
 
 Gráficos para a rodada 2:
+
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/692bab45-da3f-4e3c-b072-aaeb01db4ee1)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/614b69a2-6a29-4e69-b340-1836ea97e07f)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/f71645d6-87bb-468a-8518-07a895970ef0)
