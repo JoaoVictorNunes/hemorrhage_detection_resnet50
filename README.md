@@ -58,11 +58,14 @@ A seleção do modelo foi realizada em duas etapas:
 2. Após a seleção dos modelos que melhor desempenharam no passo 1, foi realizada uma nova rodada, mas dessas vez com 30 épocas.
 
 Após a primeira rodada, os valores de melhor desempenho foram: 0.01, 0.001 e 0.0001.
-![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/71a87857-2db7-469e-83f5-1974d9b57cd2)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/feb794f6-4c7f-4395-9210-468d853d316d)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/8e560e42-e765-4135-849b-3b141d1f8c31)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/85229f5b-fe96-451b-8081-be72a104c687)
 
-![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/fe11f5b7-45d9-49bc-b56e-04fb8af789f8)
 
-![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/e03a5029-7566-49e2-9048-9fccf9a5d654)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/692bab45-da3f-4e3c-b072-aaeb01db4ee1)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/614b69a2-6a29-4e69-b340-1836ea97e07f)
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/f71645d6-87bb-468a-8518-07a895970ef0)
 
 
 Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 20.000 imagens e 30 épocas.
