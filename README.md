@@ -33,10 +33,11 @@ A preparação dos dados consistiu em:
 https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data
 
 ## Modelo de aprendizado de máquina
-
+O modelo utilizado foi a Residual Neural Network, ou ResNet, com 50 camadas ocultas.
 
 ### Método de validação.
 
+Para a validação do modelo, foram separados 20% dos dados de treino.
 
 ### Medidas de desempenho.
 
@@ -45,14 +46,18 @@ As medidas de desempenhos utilizadas, em ordem decrescente de importância, fora
 2. Precisão
 3. Acurácia
 
+Dada a natureza do problema, a ordem foi definida dessa maneira com o objetivo de minimizar o acontecimento de falsos negativos. 
+
 ## Avaliação
 
-### Seleção do Modelo
+### Seleção do Melhor Modelo
 
-Devido ao grande tamanho do dataset e à capacidade computacional limitada, foi adotada uma estratégia para escolha do learning rate 
+A seleção do modelo foi realizada em duas etapas:
+1. Treino, com 2.000 arquivos e 10 épocas, de 6 valores de learning rate: 0.01, 0.001, 0.0001, 0.00001 e 0.000001.
+2. Após a seleção dos modelos que melhor desempenharam no passo 1, foi realizada uma nova rodada, mas dessas vez com 30 épocas.
 
-#### Ajuste fino do learning rate+
 
+Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 20.000 imagens e 30 épocas.
 
 ### Amostras usadas para treinamento, validação e teste.
 
