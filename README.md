@@ -54,10 +54,14 @@ Dada a natureza do problema, a ordem foi definida dessa maneira com o objetivo d
 ### Seleção do Melhor Modelo
 
 A seleção do modelo foi realizada em duas etapas:
-1. Treino, com 2.000 arquivos e 10 épocas, de 6 valores de learning rate: 0.01, 0.001, 0.0001, 0.00001 e 0.000001.
+1. Treino, com 2.000 arquivos e 10 épocas, de 5 valores de learning rate: 0.01, 0.001, 0.0001, 0.00001 e 0.000001.
 2. Após a seleção dos modelos que melhor desempenharam no passo 1, foi realizada uma nova rodada, mas dessas vez com 30 épocas.
 
-Após a primeira rodada, os valores de melhor desempenho foram: 0.01, 0.001 e 0.0001.
+Após a primeira rodada, os valores de melhor desempenho foram: 0.01, 0.001 e 0.0001. Foram eliminados, portanto, as duas menores taxas de learning rate.
+
+Como pode ser observado nos gráficos de recall, accuracy e precision, para os valores lr_4 e lr_5, não houve melhorias no treinamento com 10 épocas.
+Além disso, como se esperava
+
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/feb794f6-4c7f-4395-9210-468d853d316d)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/8e560e42-e765-4135-849b-3b141d1f8c31)
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/85229f5b-fe96-451b-8081-be72a104c687)
