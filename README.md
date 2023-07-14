@@ -123,11 +123,6 @@ Specificity:
 
 A partir dos resultados obtidos, então, foi selecionado o modelo com lr = 0.0001.
 
-### Amostras usadas para treinamento, validação e teste.
-
-### Medidas de desempenho.
-
-
 
 ## Conclusão
 
