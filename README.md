@@ -103,7 +103,25 @@ Accuracy:
 
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/f71645d6-87bb-468a-8518-07a895970ef0)
 
-Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 2.000 imagens e 50 épocas.
+
+Com 150 épocas:
+
+Loss:
+
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/6234f855-3b44-479e-ba82-3c5d4a6aca66)
+
+
+Recall:
+
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/20602a4c-92ef-49c1-b6c1-abb7a7c18419)
+
+
+Specificity:
+
+![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/76a7be22-9253-4e53-8180-bab1b048f49b)
+
+
+A partir dos resultados obtidos, então, foi selecionado o modelo com lr = 0.0001.
 
 ### Amostras usadas para treinamento, validação e teste.
 
@@ -112,3 +130,9 @@ Em seguida, após a seleção do learning rate otimizado, foi realizado o treina
 
 
 ## Conclusão
+
+O modelo obtido desempenhou bem com relação à espcificidade, no entanto, sua sensibilidade foi baixa.
+A acurácia, em torno de 54%, também foi aquém do esperado, visto que a classe majoritária representava 50% do dataset.
+Desse modo, apesar de o desempenho do modelo nos datasets de validação e treinamento terem sido bastante satisfatórios, o comportamento não se repetiu para os dados de teste.
+
+
