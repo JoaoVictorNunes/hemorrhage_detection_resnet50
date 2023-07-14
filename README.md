@@ -103,11 +103,12 @@ Accuracy:
 
 ![image](https://github.com/JoaoVictorNunes/hemorrhage_detection_resnet50/assets/83786352/f71645d6-87bb-468a-8518-07a895970ef0)
 
-Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 20.000 imagens e 30 épocas.
+Em seguida, após a seleção do learning rate otimizado, foi realizado o treinamento da rede neural com 2.000 imagens e 50 épocas.
 
 ### Amostras usadas para treinamento, validação e teste.
 
 ### Medidas de desempenho.
+
 
 
 ## Conclusão
